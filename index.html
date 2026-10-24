@@ -50,7 +50,7 @@ h1 em{font-style:normal;color:var(--vi2)}
 .card{--c:var(--vi);position:relative;min-height:430px;display:flex;flex-direction:column;justify-content:flex-end;padding:1.6rem;border:2px solid var(--c);box-shadow:8px 8px 0 var(--c);background:#000 center/cover;isolation:isolate;transition:.2s}
 .card::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,color-mix(in srgb,var(--c) 30%,transparent),rgba(8,5,10,.94) 72%)}
 .card:hover{transform:translate(-4px,-4px);box-shadow:12px 12px 0 var(--c)}
-.card.br{--c:#9a6238}.card.wh{--c:#e8dfd0}
+.card.br{--c:#9a6238}.card.br::before{background:linear-gradient(180deg,rgba(154,98,56,.08) 0%,rgba(8,5,10,.9) 80%)}.card.wh{--c:#e8dfd0}
 .card *{color:#f4efff}
 .tag{align-self:flex-start;background:var(--c);padding:3px 10px;font:.72rem 'Silkscreen',monospace;text-transform:uppercase;transform:rotate(-2deg);margin-bottom:.8rem}
 .card.wh .tag{color:#1a1020}
@@ -147,9 +147,9 @@ nav a{padding:14px 5%;border-bottom:1px solid var(--ln)}
 <section class="sec" id="especialidades">
   <div class="sh"><h2 class="st" data-es="Especialidades." data-en="Specialties.">Especialidades.</h2><p class="sd" data-es="Tres áreas, tres colores. Cada una con su propio estilo." data-en="Three areas, three colors. Each with its own style.">Tres áreas, tres colores. Cada una con su propio estilo.</p></div>
   <div class="grid">
-    <div class="card br" style="background-image:url('img/sala.png')"><span class="tag">Minecraft / Axiom</span><h3 class="ch" data-es="Arquitectura & Mundos" data-en="Architecture & Worlds">Arquitectura &amp; Mundos</h3><p class="ct" data-es="Castillos, catedrales góticas y mapas inmersivos con WorldGuard y herramientas avanzadas." data-en="Castles, gothic cathedrals and immersive maps with WorldGuard and advanced tools.">Castillos, catedrales góticas y mapas inmersivos con WorldGuard y herramientas avanzadas.</p></div>
-    <div class="card" style="background-image:url('img/gato-1.png')"><span class="tag">Web Development</span><h3 class="ch" data-es="Interfaces & Código" data-en="Interfaces & Code">Interfaces &amp; Código</h3><p class="ct" data-es="Sitios web interactivos con JavaScript, Python y Firebase, pensados para rendir y verse bien." data-en="Interactive websites with JavaScript, Python and Firebase, built to perform and look good.">Sitios web interactivos con JavaScript, Python y Firebase, pensados para rendir y verse bien.</p></div>
-    <div class="card wh" style="background-image:url('img/salchicha.png')"><span class="tag">Community &amp; Events</span><h3 class="ch" data-es="Servidores & Eventos" data-en="Servers & Events">Servidores &amp; Eventos</h3><p class="ct" data-es="Eventos competitivos estilo Squid Craft y configuración de servidores Minecraft en red." data-en="Squid Craft style competitive events and networked Minecraft server setup.">Eventos competitivos estilo Squid Craft y configuración de servidores Minecraft en red.</p></div>
+    <div class="card br" style="background-image:url('img/sala.png')"><span class="tag">Minecraft / Axiom</span><h3 class="ch" data-es="Arquitectura & Mundos" data-en="Architecture & Worlds">Arquitectura &amp; Mundos</h3><p class="ct" data-es="Amante de las builds. Me gusta construir cualquier tipo de build." data-en="Build lover. I like building any kind of build.">Amante de las builds. Me gusta construir cualquier tipo de build.</p></div>
+    <div class="card" style="background-image:url('img/gato-1.png')"><span class="tag">Web Development</span><h3 class="ch" data-es="Interfaces & Código" data-en="Interfaces & Code">Interfaces &amp; Código</h3><p class="ct" data-es="Sé configurar bien los sitios web." data-en="I know how to set up websites properly.">Sé configurar bien los sitios web.</p></div>
+    <div class="card wh" style="background-image:url('img/salchicha.png')"><span class="tag">Roleplay / Events</span><h3 class="ch" data-es="Servidores & Eventos" data-en="Servers & Events">Servidores &amp; Eventos</h3><p class="ct" data-es="Me gusta rolear y moderar. También los eventos estilo Squid Craft." data-en="I like roleplaying and moderating. Also Squid Craft style events.">Me gusta rolear y moderar. También los eventos estilo Squid Craft.</p></div>
   </div>
 </section>
 
